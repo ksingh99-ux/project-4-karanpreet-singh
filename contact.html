@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karan Portfolio - Contact</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- header -->
+  <header id="header">
+    <h1>Karan Portfolio</h1>
+
+    <!-- nav -->
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- main -->
+  <main id="content">
+
+    <h2 class="section-title">Contact Me</h2>
+    <p class="page-subtitle">
+      Have a question or just want to say hi? Fill out the form below and I'll get back to you.
+    </p>
+
+    <!-- form box -->
+    <div class="contact-form">
+      <h2>Send a Message</h2>
+
+      <!-- form -->
+      <form id="contactForm" novalidate>
+
+        <!-- name -->
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="e.g. Sukhvir badal" />
+          <span class="error-msg" id="nameError"></span>
+        </div>
+
+        <!-- phone -->
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="10-digit number" />
+          <span class="error-msg" id="phoneError"></span>
+        </div>
+
+        <!-- email -->
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="e.g. karan@email.com" />
+          <span class="error-msg" id="emailError"></span>
+        </div>
+
+        <!-- message -->
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write your message..."></textarea>
+          <span class="error-msg" id="messageError"></span>
+        </div>
+
+        <!-- buttons -->
+        <div class="btn-row">
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <button type="reset" id="resetBtn" class="btn btn-secondary">Reset</button>
+        </div>
+
+        <!-- success -->
+        <div class="success-msg" id="successMsg">
+          ✅ Thanks for reaching out! I'll get back to you soon.
+        </div>
+
+      </form>
+    </div>
+
+  </main>
+
+
+  <!-- footer -->
+  <footer id="footer">
+    <nav class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <p>&copy; 2025 Karan. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>

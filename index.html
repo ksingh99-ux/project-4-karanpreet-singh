@@ -1,0 +1,126 @@
+<!--********************
+
+    Name: Karanpreet Singh
+    Start Date: 02 April 2026
+    End Date: 23 April 2026
+    Description: A simple portfolio website with home, skills, and contact pages, including a form with basic validation and navigation.
+
+**********************-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karan Portfolio - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- header section with name and menu -->
+  <header id="header">
+    <h1>Karan Portfolio</h1>
+
+    <!-- navigation links -->
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main id="content">
+
+    <!-- intro section -->
+    <section class="hero">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Hi, I'm Karan, a beginner web developer learning HTML, CSS, and JavaScript.</p>
+
+      <div class="profile-photo-wrapper">
+        <div class="profile-photo">
+          <img src="images/myphoto.jpeg" alt="Karan's profile photo"
+               onerror="this.parentElement.innerHTML='📷 image error'" />
+        </div>
+      </div>
+    </section>
+
+
+    <!-- about section -->
+    <section>
+      <h2 class="section-title">About Me</h2>
+
+      <!-- small intro -->
+      <div class="card">
+        <h3>Who I Am</h3>
+        <p>
+          My name is Karan and I'm a first-semester student in the Full Stack Web Development
+          program at Red River College Polytechnic in Winnipeg, Canada. I enjoy building things
+          and solving problems, and I'm excited to grow my skills in web development.
+        </p>
+      </div>
+
+      <!-- what I'm learning right now -->
+      <div class="card">
+        <h3>What I'm Studying</h3>
+        <ul>
+          <li>HTML5 and CSS3 — building and styling web pages</li>
+          <li>JavaScript — adding interactivity to websites</li>
+          <li>Java programming — learning object-oriented thinking</li>
+          <li>Database Management — writing SQL queries</li>
+          <li>IT Foundations — basics like networking and OS</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- goals section -->
+    <section>
+      <h2 class="section-title">My Goals</h2>
+
+      <!-- short term goals -->
+      <div class="card">
+        <h3>Short-Term Goals</h3>
+        <ul>
+          <li>Pass all my Semester 1 courses with strong grades</li>
+          <li>Build a few small personal projects</li>
+          <li>Write cleaner and more readable code</li>
+          <li>Understand front-end and back-end connection</li>
+        </ul>
+      </div>
+
+      <!-- long term goals -->
+      <div class="card">
+        <h3>Long-Term Goals</h3>
+        <ul>
+          <li>Graduate from the program</li>
+          <li>Get my first job as a junior developer</li>
+          <li>Keep learning new tools and frameworks</li>
+          <li>Build my own full web app someday</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- footer section -->
+  <footer id="footer">
+
+    <!-- quick links again -->
+    <nav class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- copyright -->
+    <p>&copy; 2025 Karan. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
